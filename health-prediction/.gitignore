@@ -1,0 +1,23 @@
+# Python env and cache
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/db.sqlite3
+
+# Node dependencies and build files
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+frontend/.next/
+frontend/out/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.local
